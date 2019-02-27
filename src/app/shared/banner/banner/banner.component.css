@@ -1,0 +1,36 @@
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  @-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  .banner{
+    display: flex;
+    width:100%;
+   
+  }
+img{
+  width:100%;
+  height: 300px;
+  overflow: hidden;
+}
+button::after {
+    position: absolute;
+    content: "";
+}
+button{
+  height: 5px;
+  align-self: center;
+  border:none;
+  font-size: larger;
+  font-weight: bolder;
+}

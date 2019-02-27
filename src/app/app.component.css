@@ -1,0 +1,7 @@
+.container{
+    display: flex;margin-top: 2%;
+    margin: 2% 2%;
+}
+.side{
+    width:33%;
+}

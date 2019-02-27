@@ -1,0 +1,6 @@
+<div class="banner" *ngIf="bs.paths|async as p">
+    <button [disabled]="p.length<1" (click)="previous()">&lt;</button>
+    
+    <img appCarousel [listItems]="p" alt="{{imgPath}}" time="10000">
+    <button [disabled]="p.length<1" (click)="next()">></button>
+</div>
